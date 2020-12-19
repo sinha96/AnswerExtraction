@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+  <meta name="description" content="Electra based question and answer model demo">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/animate.min.css">
+  <link rel="shortcut icon" type="image/png" href="/static/logo.png">
+  <title>Electra QA</title>
+</head>
+
+<body>
+
+  <form action="{{url_for('index')}}" method="POST">
+    <div class="animated fadeIn main">
+      <br>
+
+      <h1>Answer Extraction Engine</h1>
+      <p>Enter context:</p>
+
+      <textarea id="context" name="context" rows="8" cols="80" required placeholder="Enter the context in 512 words" maxlength="512" ></textarea>
+
+      <p>Enter question:</p>
+
+      <div class="inputWrapper">
+        <input id="question" align="center" type="text" name="question" placeholder="enter question" required>
+        <button id="submit-btn" type="submit" value="Submit">Submit</button>
+      </div>
+      <br>
+      <br>
+
+
+    </div>
+  </form>
+  {% if data[0]: %}
+      <div class="result animated fadeIn">Question : {{data[1]}}</div>
+      <div class="result animated fadeIn">Answer : {{data[0]}}</div>
+  {% endif %}
+  <br>
+  <br>
+
+  <hr>
+  <footer>
+
+
+
+  </footer>
+
+</body>
+
+</html>

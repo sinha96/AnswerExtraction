@@ -8,29 +8,29 @@ future==0.18.2
 idna==2.10
 itsdangerous==1.1.0
 Jinja2==2.11.2
-joblib @ file:///tmp/build/80754af9/joblib_1601912903842/work
+joblib==1.0.0
 MarkupSafe==1.1.1
 mkl-fft==1.2.0
 mkl-random==1.1.1
 mkl-service==2.3.0
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603487797006/work
+numpy==1.19.0
 packaging==20.7
-pandas @ file:///tmp/build/80754af9/pandas_1602088135163/work
+pandas==1.1.5
 Pillow==8.0.1
 pyparsing==2.4.7
 python-dateutil==2.8.1
-pytz @ file:///tmp/build/80754af9/pytz_1606604771399/work
+pytz==2020.4
 regex==2020.11.13
 requests==2.25.0
 sacremoses==0.0.43
-scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1598379690588/work
-scipy @ file:///tmp/build/80754af9/scipy_1597686625380/work
-six @ file:///tmp/build/80754af9/six_1605205335545/work
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+scikit-learn==0.23.2
+scipy==1.5.4
+six==1.15.0
+threadpoolctl==2.1.0
 tokenizers==0.9.4
-torch==1.7.0+cpu
+torch==1.7.0
 torchaudio==0.7.0
-torchvision==0.8.1+cpu
+torchvision==0.8.1
 tqdm==4.54.1
 transformers==4.0.0
 typing-extensions==3.7.4.3

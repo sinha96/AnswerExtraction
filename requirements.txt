@@ -25,9 +25,7 @@ scipy==1.5.4
 six==1.15.0
 threadpoolctl==2.1.0
 tokenizers==0.9.4
-torch==1.7.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
-torchvision==0.8.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pytorch torchvision torchaudio cpuonly -c pytorch
 tqdm==4.54.1
 transformers==4.0.0
 typing-extensions==3.7.4.3
